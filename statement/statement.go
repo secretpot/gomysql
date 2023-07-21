@@ -8,6 +8,7 @@ func Express(parts ...string) string {
 	return strings.Join(parts, "")
 }
 
+// Upate & Read & Delete
 type URDInterface interface {
 	Where(conditions ...string) URDInterface
 	And(conditions ...string) URDInterface
@@ -18,6 +19,7 @@ type URD struct {
 	URDInterface
 }
 
+// Insertable object
 type Recordable interface {
 	Recordizate(columns []string) string
 }
