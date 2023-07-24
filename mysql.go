@@ -3,7 +3,8 @@ package gomysql
 import (
 	"database/sql"
 	"fmt"
-	"gomysql/statement"
+
+	"github.com/secretpot/gomysql/statement"
 
 	_ "github.com/go-sql-driver/mysql"
 	"gorm.io/driver/mysql"
