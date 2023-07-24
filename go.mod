@@ -1,4 +1,4 @@
-module gomysql
+module github.com/secretpot/gomysql
 
 go 1.20
 
